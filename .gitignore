@@ -1,0 +1,12 @@
+._*
+*.pyc
+.DS_Store
+__pycache__/
+
+.vscode/
+.idea/
+
+venv/
+
+# 忽略所有以 tmp 开头的文件和目录
+tmp*
