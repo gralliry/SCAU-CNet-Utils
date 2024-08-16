@@ -29,3 +29,7 @@ cd scau-cn-utils
 ```shell
 bash ./shell/connect.sh youraccount yourpassword
 ```
+
+## 声明
+
+本项目仅供学习交流使用，因使用本项目造成一切后果由使用者承担
