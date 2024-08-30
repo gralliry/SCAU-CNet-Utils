@@ -2,9 +2,9 @@
 
 ## 介绍
 
-SCAU-CN-UTILS(South China Agricultural University - Campus Network - UTILS)
+SCAU-CNet-Utils(South China Agricultural University - Campus Network - UTILS)
 
-在使用openwrt(或其他Linux)对华农校园网进行连接时没有图形化，无法进入Web端进行连接，遂随手开发出简易脚本
+（背景）在使用openwrt(或其他Linux)对华农校园网进行连接时没有图形化，无法进入Web端进行连接，遂随手开发出简易脚本
 
 旨在全面开发多种环境、多种方法、多种语言
 
@@ -27,7 +27,7 @@ cd scau-cn-utils
 #### Shell
 
 ```shell
-bash ./shell/connect.sh youraccount yourpassword
+bash ./shell/connect-web.sh youraccount yourpassword
 ```
 
 ## 声明

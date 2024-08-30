@@ -1,9 +1,12 @@
 #!/bin/bash
 
-# 定义变量
-SSID="your_ssid"
+# 校园网名字，一般就是SCAUNET_1x
+SSID="SCAUNET_1x"
+# 你的校园网账号（学号）
 USERNAME="your_username"
+# 你的校园网密码
 PASSWORD="your_password"
+# 你的网卡名字
 INTERFACE="wlan0"
 EAP_TYPE="peap"
 
