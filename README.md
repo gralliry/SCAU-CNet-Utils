@@ -14,8 +14,8 @@ SCAU-CNet-Utils(South China Agricultural University - Campus Network - UTILS)
 
 ## 安装
 ```shell
-git clone https://github.com/gralliry/scau-cn-utils.git
-cd scau-cn-utils
+git clone https://github.com/gralliry/SCAU-CNet-Utils.git
+cd SCAU-CNet-Utils
 ```
 
 ## 使用
@@ -27,7 +27,7 @@ cd scau-cn-utils
 #### Shell
 
 ```shell
-bash ./shell/connect-web.sh youraccount yourpassword
+bash ./connect-web.sh youraccount yourpassword
 ```
 
 ## 声明
