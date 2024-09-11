@@ -26,10 +26,11 @@ if [ "$content" = "" ]; then
   exit 1
 fi
 
+# 找出重定向网站
 parsed_url=$(echo "$content" | sed -n "s/.*href='\([^']*\)'.*/\1/p")
-
+# 找出重定向网站中的请求参数
 parsed_params=$(echo "$parsed_url" | sed -n "s/.*?\(.*\)/\1/p")
-
+# 进行url编码
 encode_params=$(echo "$parsed_params" | sed 's/=/\%3D/g; s/&/\%26/g')
 # 登录的数据
 data="userId=$username&password=$password&service=&queryString=$encode_params&operatorPwd=&operatorUserId=&validcode=&passwordEncrypt=false"
