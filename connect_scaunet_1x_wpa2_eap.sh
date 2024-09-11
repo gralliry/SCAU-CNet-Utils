@@ -1,4 +1,6 @@
 #!/bin/bash
+# 不推荐在openwrt中使用，因为配置的时候容易被覆盖掉，调的接口也容易被修改
+# 推荐在单网卡上使用
 
 # 校园网名字，一般就是SCAUNET_1x
 SSID="SCAUNET_1x"
@@ -8,6 +10,8 @@ USERNAME="your_username"
 PASSWORD="your_password"
 # 你的网卡名字
 INTERFACE="wlan0"
+
+# 企业网
 EAP_TYPE="peap"
 
 # 删除现有的连接（如果存在）

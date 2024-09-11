@@ -27,7 +27,7 @@ cd SCAU-CNet-Utils
 #### Shell
 
 ```shell
-bash ./connect-web.sh youraccount yourpassword
+bash ./connect_web.sh youraccount yourpassword
 ```
 
 ## 声明
