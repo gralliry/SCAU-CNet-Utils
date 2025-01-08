@@ -1,4 +1,6 @@
 #!/bin/bash
+# SCAUNET_1X是采用wpa2_eap, 协议是Wi-Fi 5 (802.11ac)
+# 认证为PEAP
 # 不推荐在openwrt中使用，因为配置的时候容易被覆盖掉，调的接口也容易被修改
 # 推荐在单网卡上使用
 
@@ -10,8 +12,7 @@ USERNAME="your_username"
 PASSWORD="your_password"
 # 你的网卡名字
 INTERFACE="wlan0"
-
-# 企业网
+# 企业网(不用修改这里)
 EAP_TYPE="peap"
 
 # 删除现有的连接（如果存在）
@@ -33,4 +34,4 @@ nmcli con up "$SSID"
 # 设置自动连接（可选）
 nmcli con modify "$SSID" connection.autoconnect yes
 
-echo "Connection to $SSID has been configured and activated."
+echo "Connection {$SSID} has been configured and activated."

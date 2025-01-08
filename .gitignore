@@ -10,3 +10,6 @@ venv/
 
 # 忽略所有以 tmp 开头的文件和目录
 tmp*
+# 忽略脚本
+requirements.txt
+*.py
